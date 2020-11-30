@@ -9,22 +9,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.yellow,
-      ),
+      theme: ThemeData(primarySwatch: Colors.yellow),
       //home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: Casita(),
+      /* home: Casita(), */
     );
   }
 }
 
-class Casita extends StatelessWidget {
+/* class Casita extends StatelessWidget {
   @override
   widget Build(BuildContext contex) {
     return container(color: colors.red);
   }
 }
-
+ */
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
